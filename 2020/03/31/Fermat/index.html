@@ -3,7 +3,7 @@
 <hr>
 <p>title: 费马小定理   快速幂<br>date: 2020-03-31 13:53:51</p>
 <h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2><p>Description：输入n，计算2的n次方的值。n为整数，且1&lt;=n&lt;=1000000000。由于答案过大，答案对1000000007取模。</p>
-<p>费马小定理：<img src="/2020/03/31/Fermat/Fermat.png" alt="img" height="50%" width="50%"><br>快速幂：将取幂的任务按照指数的二进制表示来分割成更小的任务<br>模的性质：(a * b) % p = (a % p * b % p) % p ; (a + b) % p = (a % p + b % p) % p</p>
+<p>费马小定理：$$若p为素数，gcd(a,p)=1，则a^{p-1}\equiv{1} (mod\ p)$$<br>快速幂：将取幂的任务按照指数的二进制表示来分割成更小的任务<br>模的性质：$$(a+b)\pmod{p}=(a\pmod{p}+b\pmod{p})\pmod{p}$$$$(a\times{b})\pmod{p}=(a\pmod{p}\times{b}\pmod{p})\pmod{p}$$</p>
 <pre><code>#include&lt;iostream&gt;
 #define mod 1000000007
 using namespace std;
@@ -13,7 +13,7 @@ typedef long long LL;
 LL quickPower(LL, LL);
 
 int main() {
-    string t;  //n因为过大所以用字符串存储
+    string t;  //因为n过大所以用字符串存储
     cin &gt;&gt; t;
     LL mod1 = mod - 1;
     LL n = t[0] - &#39;0&#39;;
