@@ -3,7 +3,7 @@
 
 <p>Description：输入n，计算2的n次方的值。n为整数，且1&lt;=n&lt;=1000000000。由于答案过大，答案对1000000007取模。</p>
 <p>费马小定理：<script type="math/tex">若p为素数，gcd(a,p)=1，则a^{p-1}\equiv{1} (mod\ p)</script><br>快速幂：将取幂的任务按照指数的二进制表示来分割成更小的任务<br>模的性质：</p>
-<script type="math/tex; mode=display">(a+b)\pmod{p}=(a\pmod{p}+b\pmod{p})\pmod{p}</script><script type="math/tex; mode=display">(a\times{b})\pmod{p}=(a\pmod{p}\times{b}\pmod{p})\pmod{p}</script><script type="math/tex; mode=display">cdef\equiv{2}</script><pre><code>#include&lt;iostream&gt;
+<script type="math/tex; mode=display">(a+b)\pmod{p}=(a\pmod{p}+b\pmod{p})\pmod{p}</script><script type="math/tex; mode=display">(a\times{b})\pmod{p}=(a\pmod{p}\times{b}\pmod{p})\pmod{p}</script><pre><code>#include&lt;iostream&gt;
 #define mod 1000000007
 using namespace std;
 
@@ -35,4 +35,4 @@ LL quickPower(LL x, LL n) {
     return result;
 }
 </code></pre><p>Postscript：1e9+7是个质数，与2互质，由费马小定理，(2^1e9+6 - 1) % 1e9+7 = 0，n = x <em> (1e9+7)+k，再由模的性质（2^(x</em>1e9+6) <em> 2^k) = (1 </em> 2^k)  (mod 1e9+7)，将n降低为k，为了防止溢出每一步都进行模运算，同时用快速幂降低时间复杂度。</p>
-<script type="math/tex; mode=display">\frac{x+y}{2}$$则$$\equiv$$如果$$x_1$$不一定$$\frac{1}{1+\frac{1}{2}}</script></article><br><br><br><br><br></main></body></html>
+</article><br><br><br><br><br></main></body></html>
