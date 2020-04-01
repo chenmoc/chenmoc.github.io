@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body itemscope itemtype="https://schema.org/WebPage"><header itemscope itemtype="https://schema.org/WPHeader"><div class="logo"></div><h1><a href="/" alt="Moc's notes" title="Moc's notes" itemprop="headline">Moc's notes</a></h1><p itemprop="description"></p><nav itemscope itemtype="https://schema.org/SiteNavigationElement"><ul><li itemprop="name"><a href="/ " alt="home" title="home" itemprop="url">home</a></li><li itemprop="name"><a href="/articles" alt="articles" title="articles" itemprop="url">articles</a></li><li itemprop="name"><a href="/author" alt="author" title="author" itemprop="url">author</a></li></ul></nav><div class="space"></div></header><main itemscope itemtype="https://schema.org/Blog"><article class="full"><h1 itemprop="headline" class="post-heading">阶乘末尾零的个数</h1><span class="post-meta"></span><br><br><p>Description：给定一个正整数N，求N！末尾0的个数。</p>
 <pre class="line-numbers language-cpp"><code class="language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt; iostream></span></span>
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
 <span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">long</span> <span class="token keyword">long</span> n<span class="token punctuation">,</span>ans <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
     cin <span class="token operator">>></span> n<span class="token punctuation">;</span>
@@ -11,6 +12,6 @@
     <span class="token punctuation">}</span>
     cout <span class="token operator">&lt;&lt;</span> ans<span class="token punctuation">;</span>
     <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>Postscript：N！的末尾有0必然是产生了10，2 <em> 5 = 10，因为每两个数就能产生一个2的倍数，而每五个数才能产生一个5的倍数，故5的个数比2多，所以只需计算5的倍数的个数就可得出结果，每隔5个数产生一个5的倍数，每隔25个数产生一个25的倍数，而25 = 5 </em> 5，依此类推，故无尽除以5的倍数。</p>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>Postscript：N！的末尾有0必然是产生了10，而\({2}\times{5}=10\)，因为每两个数就能产生一个2的倍数，而每五个数才能产生一个5的倍数，故5的个数比2多，所以只需计算5的倍数的个数就可得出结果，每隔5个数产生一个5的倍数，每隔25个数产生一个25的倍数，而\({25}={5}\times{5}\)，依此类推，故无尽除以5的倍数。</p>
 </article><br><br><span class="next-post"><a href="/2020/03/31/Fermat/" itemprop="url">Older Post ⇒</a></span><span class="prev-post"><a href="/2020/03/31/fullArray/" itemprop="url">⇐ Next Post </a></span><br><br><br></main></body></html>
