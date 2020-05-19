@@ -60,9 +60,13 @@
 <p>\(\quad\)在无向图和有向图中，若两个端点重合的边称为环，无边关联的顶点称作孤立点</p>
 <p>\(\quad\)无向图顶点的度：设\(G=&lt;V,E&gt;\)为无向图，\(v\in V\)，\(v\)作为边的端点次数之和称为\(v\)的度数(度)，记为\(d(v)\)<br>\(\quad\)悬挂顶点：度数为\(1\)的顶点<br>\(\quad\)悬挂边：与悬挂顶点关联的边<br>\(\quad G\)的最大度\(\triangle(G)=max\lbrace d(v)|v\in V\rbrace\)<br>\(\quad G\)的最小度\(\delta(G)=min\lbrace d(v)|v\in V\rbrace\)</p>
 <p>有向图顶点的度：设\(D=&lt;V,E&gt;\)为无=有向图，\(v\in V\)<br>\(\quad v\)的出度\(d^+ (v):v\)作为边的始点次数之和<br>\(\quad v\)的入度\(d^- (v):v\)作为边的终点次数之和<br>\(\quad v\)度数(度)\(d(v):v\)作为边的端点次数之和，\(d(v)=d^+ (v)+d^- (v)\)</p>
-<p>\(\quad\)握手定理：设\(G=&lt;V,E&gt;\)为任意一图(无向的或有向的)，\(V=\lbrace v_1 ,v_2 ,v_3 ,\cdot\cdot\cdot ,v_n \rbrace\)，边的条数\(|E|=m\)，则$$sum_{i=1}^{n} d(v_i )=2m$$<br>\(\quad\)推论：任何图(有向或无向)中，度数为奇数的顶点个数是偶数</p>
+<p>\(\quad\)握手定理：设\(G=&lt;V,E&gt;\)为任意一图(无向的或有向的)，\(V=\lbrace v_1 ,v_2 ,v_3 ,\cdot\cdot\cdot ,v_n \rbrace\)，边的条数\(|E|=m\)，则$$\sum_{i=1}^{n} d(v_i )=2m$$<br>\(\quad\)推论：任何图(有向或无向)中，度数为奇数的顶点个数是偶数</p>
 <p>\(\quad\)在任何有向图\(D\)中，所有结点的入度之和等于所有结点的出度之和</p>
-<p>设无向图\(G\)的顶点集\(V=\lbrace v_1 ,v_2 ,v_3 ,\cdot\cdot\cdot ,v_n \)<br>\(\quad\)G的度数列：\(d(v_1 ),d(v_2 ),d(v_3 ),\cdot\cdot\cdot ,d(v_n )\)</p>
-<p>设有向图\(D\)的顶点集\(V=\lbrace v_1 ,v_2 ,v_3 ,\cdot\cdot\cdot ,v_n \)<br>\(\quad\)D的度数列：\(d(v_1 ),d(v_2 ),d(v_3 ),\cdot\cdot\cdot ,d(v_n )\)<br>\(\quad\)D的出度列：\(d^+ (v_1 ),d^+ (v_2 ),d^+ (v_3 ),\cdot\cdot\cdot ,d^+ (v_n )\)<br>\(\quad\)D的入度列：\(d^- (v_1 ),d^- (v_2 ),d^- (v_3 ),\cdot\cdot\cdot ,d^- (v_n )\)</p>
+<p>设无向图\(G\)的顶点集\(V=\lbrace v_1 ,v_2 ,v_3 ,\cdot\cdot\cdot ,v_n \rbrace\)<br>\(\quad\)G的度数列：\(d(v_1 ),d(v_2 ),d(v_3 ),\cdot\cdot\cdot ,d(v_n )\)</p>
+<p>设有向图\(D\)的顶点集\(V=\lbrace v_1 ,v_2 ,v_3 ,\cdot\cdot\cdot ,v_n \rbrace\)<br>\(\quad\)D的度数列：\(d(v_1 ),d(v_2 ),d(v_3 ),\cdot\cdot\cdot ,d(v_n )\)<br>\(\quad\)D的出度列：\(d^+ (v_1 ),d^+ (v_2 ),d^+ (v_3 ),\cdot\cdot\cdot ,d^+ (v_n )\)<br>\(\quad\)D的入度列：\(d^- (v_1 ),d^- (v_2 ),d^- (v_3 ),\cdot\cdot\cdot ,d^- (v_n )\)</p>
 <p>\(\quad\)在无向图中，关联同一对顶点的2条或2条以上的边，称为平行边，平行边的条数称为重数<br>\(\quad\)在有向图中，具有相同始点和终点的2条或2条以上的边称为有向平行边，简称平行边，平行边的条数称为重数<br>\(\quad\)含平行边的图称为多重图<br>\(\quad\)即无平行边也无环的图称为简单图<br>\(\quad\)无向完全图：每对顶点之间都有一条边的无向简单图，\(n\)阶无向完全图记作\(K_n \)<br>\(\quad\)有向完全图：每对顶点之间均有两条方向相反的边的有向简单图<br>\(\quad k-\)正则图：每个顶点的度数均为\(k\)的无向简单图</p>
+<p>\(\quad\)给定图\(G=&lt;V,E&gt;\)(无向或有向)，G中顶点与变得交替序列\(\tau =v_0 e_1 v_1 e_2 \cdot\cdot\cdot e_l v_l \)，若\(\forall i(1\le i\le l),e_i=(v_{i-1},v_i )\)（对于有向图，\(e_i =&lt;v_{i-1} ,v_i &gt;\)）,则称\(\tau\)为\(v_0 \)到\(v_l \)的通路，\(v_0 \)和\(v_l \)分别为通路的起点和终点，\(l\)为通路的长度。若\(v_0 =v_l \)，则称\(\tau\)为回路。</p>
+<p>\(\quad\)若通路(回路)中所有顶点(对于回路，除\(v_0 =v_l \))各异，则称为初级通路或路径(初级回路或圈)。长度为奇数的圈称为奇圈，长度为偶数的圈称作偶圈。</p>
+<p>\(\quad\)若通路(回路)中所有边各异，则称为简单通路(简单回路)，否则称为复杂通路(复杂回路)</p>
+<p>\(\quad\)在无向简单图中，所有圈的长度\(\ge 3\)；在有向简单图中，所有圈的长度\(\ge 2\)</p>
 </article><br><br><span class="next-post"><a href="/2020/04/08/advancedMath/" itemprop="url">Older Post ⇒</a></span><span class="prev-post"><a href="/2020/05/09/physics/" itemprop="url">⇐ Next Post </a></span><br><br><br></main></body></html>
