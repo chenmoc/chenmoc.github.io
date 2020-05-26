@@ -74,4 +74,13 @@
 <p>\(\quad\)在无向图G中，若顶点\(v_i \)与\(v_j \)之间存在通路，则称\(v_i \)与\(v_j \)是连通的。规定任一顶点与自身是连通的。<br>\(\quad\)任意两点都连通的图称为连通图。平凡图是连通图。<br>\(\quad\)连通关系：\(R=\lbrace &lt;u,v&gt;|u,v\in V\)且\(u\)与\(v\)连通\(\rbrace\)。\(R\)是等价关系。<br>\(\quad\)连通分支：V关于R的等价类的导出子图。<br>\(\quad\)设\(V/R=\lbrace V_1 ,V_2 ,\cdot\cdot\cdot ,V_k \rbrace\)，G的连通分支为\(G[V_1 ],G[V_2 ],\cdot\cdot\cdot ,G[V_k ]\)，则连通分支数\(p(G)=k\)，若G是连通图，则\(p(G)=1\)。</p>
 <p>\(\quad\)u与v之间的短程线：u与v之间长度最短的通路(设u与v连通)<br>\(\quad\)u与v之间的距离d(u,v)：u与v之间短程线的长度<br>\(\quad\)若u与v不连通，规定\(d(u,v)=\infty\)</p>
 <p>\(\quad\)设无向图\(G=&lt;V,E&gt;,v\in V,e\in E,V’ \subseteq V,E’\subseteq E\)，记<br>\(\qquad G-v:\)从G中删除v及关联的边<br>\(\qquad G-V’ :\)从G中删除V’中所有的顶点及关联的边<br>\(\qquad G-e :\)从G中删除e<br>\(\qquad G-E’ :\)从G中删除E’中所有边</p>
+<p>\(\quad\)设有向图\(D=&lt;V,E&gt;,u,v\in V\)<br>\(\qquad\)u可达v：u到v有通路，规定任一顶点到自身总是可达的<br>\(\qquad\)u与v相互可达：u可达v且v可达u</p>
+<p>\(\quad\)设D=&lt;V,E&gt;为一个简单有向图<br>\(\quad\)若忽略边的方向，D是连通图，则称D是弱连通图<br>\(\quad\)若\(\forall v_i ,v_j \in V,v_i \rightarrow v_j \)与\(v_j \rightarrow v_i\)至少成立其一，则称D是单侧连通图<br>\(\quad\)若均有\(v_i \leftrightarrow v_j\)，则称D是强连通图</p>
+<p>\(\quad\)一个有向图是强连通的\(\Leftrightarrow G\)中有一个回路，它至少包含每个结点一次<br>\(\quad\)一个有向图是单向连通的\(\Leftrightarrow G\)中有一个通路，它至少包含每个结点一次</p>
+<p>\(\quad\)在简单有向图中，具有强连通性质的最大子图，称为强分图；具有单侧连通性质的最大子图，称为单侧分图；具有弱连通性质的最大子图，称为弱分图</p>
+<p>\(\quad\)在有向图中，它的每个结点位于且仅位于一个强分图中</p>
+<p>\(\quad\)设无向图\(G=&lt;V,E&gt;,V={v_1 ,v_2 ,\cdot\cdot\cdot ,v_n },E={e_1 ,e_2 ,\cdot\cdot\cdot ,e_m }\)，令\(m_{ij} \)为\(v_i \)与\(e_j \)的关联次数，称\((m_{ij} )_{n\times m}\)为\(G\)的关联矩阵，记为\(M(G)\)<br>\(m_{ij}\)的可能取值为：0,1,2$$\sum_{i=1}^{n} m_{ij} =2,j=1,2,…..,m\\\\\sum_{j=1}^{m} m_{ij} =d(v_i ),i=1,2,…,n\\\\\sum_{i,j} m_{ij}=2m$$</p>
+<p>\(\quad\)设无环有向图\(D=&lt;V,E&gt;,V={v_1 ,v_2 ,\cdot\cdot\cdot ,v_n },E={e_1 ,e_2 ,\cdot\cdot\cdot ,e_m }\)<br>\(\qquad\)当\(v_i \)为\(e_j \)的始点时，\(m_{ij} =1\)<br>\(\qquad\)当\(v_i \)为\(e_j \)不关联时，\(m_{ij} =0\)<br>\(\qquad\)当\(v_i \)为\(e_j \)的终点时，\(m_{ij} =-1\)<br>则称\((m_{ij} )_{n\cdot m} \)为D的关联矩阵，记为M(D)</p>
+<p>\(\quad\)设有向图\(D=&lt;V,E&gt;,V={v_1 ,v_2 ,\cdot\cdot\cdot ,v_n },E={e_1 ,e_2 ,\cdot\cdot\cdot ,e_m }\)，令\(a_{ij} \)为顶点\(v_i \)邻接到顶点\(v_j \)的条数，称\(a_{ij}_{n\cdot n} \)为D的邻接矩阵，记作A(D)，简记做A</p>
+<p>\(\quad\)设图(无向图和有向图)\(G=&lt;V,E&gt;,V={v_1 ,v_2 ,…,v_n }\)<br>当\(v_i \)可达\(v_j \)时，\(p_{ij} =0\)，否则等于1，称\(p_{n\times n}\)为G的可达矩阵，记作P(G)，简记为P</p>
 </article><br><br><span class="next-post"><a href="/2020/04/08/advancedMath/" itemprop="url">Older Post ⇒</a></span><span class="prev-post"><a href="/2020/05/09/physics/" itemprop="url">⇐ Next Post </a></span><br><br><br></main></body></html>
