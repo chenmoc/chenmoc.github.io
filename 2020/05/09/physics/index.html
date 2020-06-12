@@ -1,51 +1,156 @@
 <!DOCTYPE html><html lang="en-us"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>大学物理 | Moc's Notes</title><meta name="description" content="physics"><meta name="generator" content="Moc's Notes"><meta name="author" content="chenmoc"><meta name="keywords"><meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0"><link rel="stylesheet" type="text/css" href="/styles/screen.css"><link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/images/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png"><link rel="icon" type="image/png" sizes="128x128" href="/images/favicon-128.png"><link rel="icon" type="image/png" sizes="196x196" href="/images/favicon-196x196.png"><meta name="msapplication-TileColor" content="#FFFFFF"><meta name="msapplication-TileImage" content="mstile-144x144.png"><meta name="msapplication-square70x70logo" content="mstile-70x70.png"><meta name="msapplication-square150x150logo" content="mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="mstile-310x150.png"><meta name="msapplication-square310x310logo" content="mstile-310x310.png"><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><link rel="stylesheet" href="/css/prism-shades-of-purple.css" type="text/css">
 <!-- hexo-inject:begin --><!-- hexo-inject:end --><link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head><body itemscope itemtype="https://schema.org/WebPage"><header itemscope itemtype="https://schema.org/WPHeader"><div class="logo"></div><h1><a href="/" alt="Moc's Notes" title="Moc's Notes" itemprop="headline">Moc's Notes</a></h1><p itemprop="description"></p><nav itemscope itemtype="https://schema.org/SiteNavigationElement"><ul><li itemprop="name"><a href="/ " alt="home" title="home" itemprop="url">home</a></li><li itemprop="name"><a href="/articles" alt="articles" title="articles" itemprop="url">articles</a></li><li itemprop="name"><a href="/author" alt="author" title="author" itemprop="url">author</a></li></ul></nav><div class="space"></div></header><main itemscope itemtype="https://schema.org/Blog"><article class="full"><h1 itemprop="headline" class="post-heading">大学物理</h1><span class="post-meta"></span><br><br><p>\(\quad\)质点在某一段时间内的位移等于同一段时间内位矢的增量$$\triangle\vec{r} =\vec{r}(t+\triangle t)-\vec{r}(t)$$</p>
-<!-- hexo-inject:begin --><!-- hexo-inject:end --><p>\(\quad\)位矢反映某一时刻质点的位置，记为\(\vec{r}(t)\)，而位移则描述某段时间内质点始末位置的变化，记为\(\triangle\vec{r}\)。对于相对静止的不同坐标系来说，位矢依赖于坐标系的选择，而位移则于所选取的坐标系无关。位矢的增量\\(\triangle\vec{r}\)的大小\(|\triangle\vec{r}|\)与位矢大小的增量\(\triangle r\)一般是不相等的，因为$$\triangle r=|\vec{r}(t+\triangle t)|-|\vec{t}(t)|$$<br>例如一质点以半径R作匀速圆周运动，以圆心为原点，半个周期内质点的位移的大小为2R，而位矢的大小的增量为0。</p>
-<p>\(\quad\)平均速度：$$\overline{\vec{v}}=\frac{\triangle\vec{r}}{\triangle t}$$<br>\(\quad\)平均速率：$$\overline{v}=\frac{\triangle s}{\triangle t}$$<br>\(\quad\)速度：速度等于位矢对时间的一阶导数$$\vec{v}=\frac{d\vec{r}}{dt}$$<br>\(\quad\)速率：即速度的大小$$|\vec{v}|=|\frac{d\vec{r}}{dt}|$$<br>速率是算术量，恒取正值，注意\(|\vec{v}|\ne |\frac{dr}{dt}|\)<br>\(\\\\\)<br>\(\quad\)加速度：加速度等于速度对时间的一阶导数或位矢对时间的二阶导数$$\vec{a}=\frac{d\vec{v}}{dt}=\frac{d^2 \vec{r}}{dt^2 }$$</p>
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><p>\(\quad\)位矢反映某一时刻质点的位置，记为\(\vec{r}(t)\)，而位移则描述某段时间内质点始末位置的变化，记为\(\triangle\vec{r}\)。对于相对静止的不同坐标系来说，位矢依赖于坐标系的选择，而位移则于所选取的坐标系无关。位矢的增量\(\triangle\vec{r}\)的大小\(|\triangle\vec{r}|\)与位矢大小的增量\(\triangle r\)一般是不相等的，因为$$\triangle r=|\vec{r}(t+\triangle t)|-|\vec{t}(t)|$$<br>
+例如一质点以半径R作匀速圆周运动，以圆心为原点，半个周期内质点的位移的大小为2R，而位矢的大小的增量为0。</p>
+<p>\(\quad\)平均速度：$$\overline{\vec{v}}=\frac{\triangle\vec{r}}{\triangle t}$$<br>
+\(\quad\)平均速率：$$\overline{v}=\frac{\triangle s}{\triangle t}$$<br>
+\(\quad\)速度：速度等于位矢对时间的一阶导数$$\vec{v}=\frac{d\vec{r}}{dt}$$<br>
+\(\quad\)速率：即速度的大小$$|\vec{v}|=|\frac{d\vec{r}}{dt}|$$<br>
+速率是算术量，恒取正值，注意\(|\vec{v}|\ne |\frac{dr}{dt}|\)<br>
+\(\\\)<br>
+\(\quad\)加速度：加速度等于速度对时间的一阶导数或位矢对时间的二阶导数$$\vec{a}=\frac{d\vec{v}}{dt}=\frac{d^2 \vec{r}}{dt^2 }$$</p>
 <p>\(\quad\)圆周运动</p>
-<p>\(\quad\)自然坐标：已知运动轨迹，将每点分解成平行于瞬时速度方向的向量\(\vec{e_t }\)和垂直于瞬时方向的向量\(\vec{e_n }\)<br>\(\quad\)自然坐标系中的速度和加速度$$\vec{v}=\frac{ds}{dt} \vec{e_t }\\\\\vec{a}=\frac{d\vec{v}}{dt}=\frac{v\vec{e_t }}{dt}=\frac{dv}{dt}\vec{e_t }+v\frac{d\vec{e_t }}{dt}=\frac{dv}{dt}\vec{e_t }+\frac{v^2 }{R} \vec{e_n }=a_t \vec{e_t } +a_n \vec{e_n }=\vec{a_t }+\vec{a_n }$$<br>\(d\vec{e_t }\perp  \vec{e_t }\)，即与\(\vec{e_n }\)同向<br>\(|d\vec{e_t }|=|\vec{e_t }|d\theta =1\cdot d\theta = d\theta \),\(\frac{d\vec{e_t }}{dt}=\frac{d\theta}{dt} \vec{e_n }=\frac{d\theta}{ds} \cdot \frac{ds}{dt} \vec{e_n }=\frac{v}{R}\vec{e_n}\)</p>
-<p>\(\quad\)圆周运动的角量描述：半径不变，质点位置可由角坐标\(\theta\)表示，运动方程可用角坐标表示：\(\theta =\theta(t)\)，角位移：\(\triangle\theta\)<br>\(\quad\)角速度：\(\omega=\lim\limits_{\triangle t\rightarrow 0} \frac{\triangle\theta}{\triangle t}=\frac{d\theta}{dt}\)<br>\(\quad\)角加速度：\(\beta =\lim\limits_{\triangle t\rightarrow 0} \frac{\triangle \omega}{\triangle t}=\frac{d\omega}{dt}=\frac{d^2 \theta}{dt^2}\)<br>\(\quad\)线量与角量关系：$$ds=Rd\theta\\\\v=\frac{ds}{dt}=R\frac{d\theta}{dt}=\omega R\\\\a_t =\frac{dv}{dt}=R\frac{d\omega}{dt}=\beta R\\\\a_n =\frac{v^2 }{R}=\omega^2 R$$</p>
-<p>\(\quad\)某时刻质点动量对时间的变化率等于该时刻作用在质点上所有力的合力<br>\(\quad\)地球对其表面附近尺寸不大的物体的万有引力被认为近似等于该物体的重力，重力的大小也就是物体的重量</p>
-<p>\(\quad\)重力势能：\(E_p =mgz\)<br>\(\quad\)重力的功：\(A=mgz_1 -mgz_2 \)<br>\(\quad\)万有引力势能：\(E_p =-\frac{GMm}{r}\)<br>\(\quad\)万有引力的功：\(A=\frac{GMm}{r_2 }-\frac{GMm}{r_1 }\)<br>\(\quad\)弹性势能：\(E_p =\frac{kx^2 }{2}\)<br>\(\quad\)弹性力的功：\(A=\frac{kx_1^2 }{2}-\frac{kx_2^2}{2}\)</p>
-<p>\(\quad\)选定无穷远处万有引力势能为零的情况下，质点在万有引力场中任一点的万有引力势能均小于质点在无穷远出的万有引力势能<br>\(\quad\)保守力在某一过程中的功，等于该过程的始、末两个状态势能增量的负值<br>\(\quad\)质点的机械能守恒定律：在仅有保守力做功时，质点的动能和势能可以互相转换，但动能和势能的总和保持不变</p>
+<p>\(\quad\)自然坐标：已知运动轨迹，将每点分解成平行于瞬时速度方向的向量\(\vec{e_t }\)和垂直于瞬时方向的向量\(\vec{e_n }\)<br>
+\(\quad\)自然坐标系中的速度和加速度$$\vec{v}=\frac{ds}{dt} \vec{e_t }\\\vec{a}=\frac{d\vec{v}}{dt}=\frac{v\vec{e_t }}{dt}=\frac{dv}{dt}\vec{e_t }+v\frac{d\vec{e_t }}{dt}=\frac{dv}{dt}\vec{e_t }+\frac{v^2 }{R} \vec{e_n }=a_t \vec{e_t } +a_n \vec{e_n }=\vec{a_t }+\vec{a_n }$$<br>
+\(d\vec{e_t }\perp  \vec{e_t }\)，即与\(\vec{e_n }\)同向<br>
+\(|d\vec{e_t }|=|\vec{e_t }|d\theta =1\cdot d\theta = d\theta \),\(\frac{d\vec{e_t }}{dt}=\frac{d\theta}{dt} \vec{e_n }=\frac{d\theta}{ds} \cdot \frac{ds}{dt} \vec{e_n }=\frac{v}{R}\vec{e_n}\)</p>
+<p>\(\quad\)圆周运动的角量描述：半径不变，质点位置可由角坐标\(\theta\)表示，运动方程可用角坐标表示：\(\theta =\theta(t)\)，角位移：\(\triangle\theta\)<br>
+\(\quad\)角速度：\(\omega=\lim\limits_{\triangle t\rightarrow 0} \frac{\triangle\theta}{\triangle t}=\frac{d\theta}{dt}\)<br>
+\(\quad\)角加速度：\(\beta =\lim\limits_{\triangle t\rightarrow 0} \frac{\triangle \omega}{\triangle t}=\frac{d\omega}{dt}=\frac{d^2 \theta}{dt^2}\)<br>
+\(\quad\)线量与角量关系：$$ds=Rd\theta\\v=\frac{ds}{dt}=R\frac{d\theta}{dt}=\omega R\\a_t =\frac{dv}{dt}=R\frac{d\omega}{dt}=\beta R\\a_n =\frac{v^2 }{R}=\omega^2 R$$</p>
+<p>\(\quad\)牛顿第一定律(惯性定律)：任何质点都保持静止或匀速直线运动状态，直到其他物体对它的作用力迫使它改变这种状态为止。</p>
+<p>\(\quad\)牛顿第二定律：某时刻质点动量对时间的变化率等于该时刻作用在质点上所有力的合力$$F=m\frac{dv}{dt}=ma$$</p>
+<p>\(\quad\)牛顿第三定律(作用与反作用定律)：当物体\(A\)以力\(F_1 \)作用与\(B\)时，物体\(B\)也同时以力\(F_2 \)作用于物体\(A\)，力\(F_1 \)和\(F_2 \)总是大小相等，方向相反，且在同一直线上$$F_1 =-F_2 $$</p>
+<p>\(\quad\)我们把牛顿定律适用的参考系，称为惯性系；否则就叫非惯性系。一个参考系是否为惯性系，只能依赖实验确定。凡是相对惯性系作匀速直线运动的参考系也是惯性系。</p>
+<p>\(\quad\)牛顿力学只适用于解决物体的低速运动问题，不适用于处理高速运动问题，物体的高速运动问题遵循相对论力学的规律；牛顿力学只适用于宏观物体，而一般不适用于微观粒子，微观粒子的运动遵循量子力学的规律。</p>
+<p>\(\quad\)地球对其表面附近尺寸不大的物体的万有引力被认为近似等于该物体的重力，重力的大小也就是物体的重量</p>
+<p>\(\quad\)重力势能：\(E_p =mgz\)<br>
+\(\quad\)重力的功：\(A=mgz_1 -mgz_2 \)<br>
+\(\quad\)万有引力势能：\(E_p =-\frac{GMm}{r}\)<br>
+\(\quad\)万有引力的功：\(A=\frac{GMm}{r_2 }-\frac{GMm}{r_1 }\)<br>
+\(\quad\)弹性势能：\(E_p =\frac{kx^2 }{2}\)<br>
+\(\quad\)弹性力的功：\(A=\frac{kx_1^2 }{2}-\frac{kx_2^2}{2}\)</p>
+<p>\(\quad\)选定无穷远处万有引力势能为零的情况下，质点在万有引力场中任一点的万有引力势能均小于质点在无穷远出的万有引力势能<br>
+\(\quad\)保守力在某一过程中的功，等于该过程的始、末两个状态势能增量的负值<br>
+\(\quad\)质点的机械能守恒定律：在仅有保守力做功时，质点的动能和势能可以互相转换，但动能和势能的总和保持不变</p>
+<p>\(\quad\)做功只与始末位置有关，而与路径无关的力，称为保守力。重力、万有引力、弹性力都是保守力，摩擦力不是保守力。</p>
+<p>\(\quad\)如果质点在某一部分空间内的任何位置，都受到一个大小和方向完全确定的保守力的作用，则称这部分空间中存在这保守力场。例如质点在地球表面附近空间中任何位置，都要受到一个大小和方向完全确定的重力作用，因而这部分空间中存在着重力场。</p>
+<p>\(\quad\)在力学中把力和力的作用时间的乘积称为力的冲量，力的冲量是矢量。质点动量的微分等于作用在质点上合力的元冲量$$d(mv)=Fdt$$<br>
+元冲量：\(Fdt\)</p>
+<p>\(\quad\)某段时间内质点动量的增量等于作用在质点上的合力在同一时间内的冲量$$I=mv_2 -mv_1 =\int_{t_1}^{t_2}Fdt$$</p>
 <p>\(\quad\)简谐振动：物体振动时，若决定其位置的坐标按余弦(或正弦)函数规律随时间变化，这样的振动称为简谐振动，简称谐振动。在忽略阻力的情况下，弹簧振子的小幅度振动及单摆、复摆的小角度振动都是简谐振动。</p>
-<p>\(\quad\)简谐振动的运动学方程：$$x=Axos(\omega t+\varphi)$$<br>\(\quad\)简谐振动的速度方程：$$v=\frac{dx}{dt}=-\omega Asin(\omega t +\varphi)=\omega Acos(\omega t+\varphi +\frac{\pi}{2})$$<br>\(\quad\)简谐振动的加速度方程：$$a=\frac{dv}{dt}=-\omega^2 Acos(\omega t+\varphi)=\omega^2 Acos(\omega t+\varphi +\pi )$$</p>
-<p>\(\quad\)振幅(A)：物体做简谐振动时离开平衡位置最大位移的绝对值<br>\(\quad\)相位：\(\omega t+\varphi\)<br>\(\quad\)初相位：\(\varphi\)<br>\(\quad\)相位差：\(\triangle \varphi\)<br>\(\quad\)周期：振动物体做一次全振动(即一次往复运动)所经历的时间$$T=\frac{2\pi }{\omega}\\\\\upsilon=\frac{1}{T}=\frac{\omega}{2\pi }\\\\\Rightarrow\omega =\frac{2\pi}{T}=2\pi\upsilon$$<br>\(\quad\)角频率(圆频率)\(\omega\)：物体在单位时间内所作全振动的次数的\(2\pi\)倍$$\triangle t=\frac{\triangle \varphi}{\omega}$$</p>
-<p>\(\quad\)两个同频率的简谐振动的相位差与时间无关，当\(\triangle\varphi=\pm 2k\pi\)时同向，步调完全一致；当\(\triangle\varphi=\pm( 2k+1)\pi\)时反向，步调完全相反<br>\(\quad\varphi &gt;0\)：第二个简谐振动超前于第一个简谐振动；<br>\(\quad\varphi &lt;0\)：第二个简谐振动落后于第一个简谐振动</p>
-<p>\(\quad\)弹簧振子的周期和频率完全由其质量\(m\)和劲度系数\(k\)所决定，即完全取决于振动系统本身的固有属性$$\omega =\sqrt{\frac{k}{m}}\\\\T=\frac{2\pi }{\omega}=2\pi\sqrt{\frac{m}{k}}$$</p>
-<p>简谐振动的旋转矢量表示法：<br>\(\quad\)旋转矢量\(\vec{A}\)的模：简谐振动的振幅<br>\(\quad\)旋转矢量\(\vec{A}\)的角速度\(\omega\)：简谐振动的角频率<br>\(\quad t\)时刻，\(\vec{A}\)与\(Ox\)轴的夹角\((\omega t+\varphi)\)：简谐振动的相位<br>\(\quad t=0\)时刻，\(\vec{A}\)与\(Ox\)轴的夹角\(\varphi\)：简谐振动的初相位<br>\(\quad\)矢量\(\vec{A}\)的末端在\(Ox\)轴上的投影点的位移：\(x=Acos(\omega t+\varphi)\)，即简谐振动的运动学方程</p>
-<p>\(\quad\)旋转矢量\(\vec{A}\)的末端在\(Ox\)轴上的投影点的运动为简谐振动<br>\(\quad\)旋转矢量\(\vec{A}\)的末端在\(Ox\)轴上的投影点的速度代表简谐振动的速度<br>\(\quad\)旋转矢量\(\vec{A}\)的末端在\(Ox\)轴上的投影点的加速度代表简谐振动的加速度</p>
+<p>\(\quad\)简谐振动的运动学方程：$$x=Axos(\omega t+\varphi)$$<br>
+\(\quad\)简谐振动的速度方程：$$v=\frac{dx}{dt}=-\omega Asin(\omega t +\varphi)=\omega Acos(\omega t+\varphi +\frac{\pi}{2})$$<br>
+\(\quad\)简谐振动的加速度方程：$$a=\frac{dv}{dt}=-\omega^2 Acos(\omega t+\varphi)=\omega^2 Acos(\omega t+\varphi +\pi )$$</p>
+<p>\(\quad\)振幅(A)：物体做简谐振动时离开平衡位置最大位移的绝对值<br>
+\(\quad\)相位：\(\omega t+\varphi\)<br>
+\(\quad\)初相位：\(\varphi\)<br>
+\(\quad\)相位差：\(\triangle \varphi\)<br>
+\(\quad\)周期：振动物体做一次全振动(即一次往复运动)所经历的时间$$T=\frac{2\pi }{\omega}\\\upsilon=\frac{1}{T}=\frac{\omega}{2\pi }\\\Rightarrow\omega =\frac{2\pi}{T}=2\pi\upsilon$$<br>
+\(\quad\)角频率(圆频率)\(\omega\)：物体在单位时间内所作全振动的次数的\(2\pi\)倍$$\triangle t=\frac{\triangle \varphi}{\omega}$$</p>
+<p>\(\quad\)两个同频率的简谐振动的相位差与时间无关，当\(\triangle\varphi=\pm 2k\pi\)时同向，步调完全一致；当\(\triangle\varphi=\pm( 2k+1)\pi\)时反向，步调完全相反<br>
+\(\quad\varphi &gt;0\)：第二个简谐振动超前于第一个简谐振动；<br>
+\(\quad\varphi &lt;0\)：第二个简谐振动落后于第一个简谐振动</p>
+<p>\(\quad\)弹簧振子的周期和频率完全由其质量\(m\)和劲度系数\(k\)所决定，即完全取决于振动系统本身的固有属性$$\omega =\sqrt{\frac{k}{m}}\\T=\frac{2\pi }{\omega}=2\pi\sqrt{\frac{m}{k}}$$</p>
+<p>简谐振动的旋转矢量表示法：<br>
+\(\quad\)旋转矢量\(\vec{A}\)的模：简谐振动的振幅<br>
+\(\quad\)旋转矢量\(\vec{A}\)的角速度\(\omega\)：简谐振动的角频率<br>
+\(\quad t\)时刻，\(\vec{A}\)与\(Ox\)轴的夹角\((\omega t+\varphi)\)：简谐振动的相位<br>
+\(\quad t=0\)时刻，\(\vec{A}\)与\(Ox\)轴的夹角\(\varphi\)：简谐振动的初相位<br>
+\(\quad\)矢量\(\vec{A}\)的末端在\(Ox\)轴上的投影点的位移：\(x=Acos(\omega t+\varphi)\)，即简谐振动的运动学方程</p>
+<p>\(\quad\)旋转矢量\(\vec{A}\)的末端在\(Ox\)轴上的投影点的运动为简谐振动<br>
+\(\quad\)旋转矢量\(\vec{A}\)的末端在\(Ox\)轴上的投影点的速度代表简谐振动的速度<br>
+\(\quad\)旋转矢量\(\vec{A}\)的末端在\(Ox\)轴上的投影点的加速度代表简谐振动的加速度</p>
 <p>\(\quad\)旋转矢量方法巧妙的把变速率简谐振动问题简化为了矢量的匀速率旋转问题</p>
-<p>简谐振动的能量特征：$$x=cos(\omega t+\varphi)\\\\v=-\omega Asin(\omega t+\varphi)\\\\\Rightarrow E_k =\frac{1}{2}mv^2 =\frac{1}{2}m\omega^2 sin^2 (\omega t+\varphi)\\\\E_p =\frac{1}{2}kx^2 =\frac{1}{2}kA^2 (\omega t+\varphi)$$<br>\(\quad\)弹簧振子系统的机械能：$$E=E_k +E_p =\frac{1}{2}kA^2 $$<br>简谐振动系统的总能量与振幅的平方成正比<br>振幅的大小可以用来表征简谐振动的强弱<br>\(\quad\)简谐振动位移的平均值：$$\overline{x}=0$$<br>\(\quad\)简谐振动势能的平均值：$$\overline{E_p }=\frac{1}{2} E$$<br>\(\quad\)简谐振动动能的平均值：$$\overline{E_k }=\frac{1}{2} E$$<br>就平均意义上来说，简谐振动系统的能量中一半是动能，一半是势能</p>
-<p>\(\quad\)两个同方向、同频率的简谐振动的合成：设一个质点同时参与两个独立的同方向、同频率的简谐运动：$$x_1 =A_1cos(\omega t+\varphi_1),x_2 =A_2 cos(\omega t+\varphi_2)$$<br>合振动的振动方程：$$x=Acos(\omega t+\varphi)$$<br>其中$$A=\sqrt{A_1^2 +A_2^2 +2A_1 A_2 cos(\varphi_2 -\varphi_1)}\\\\\varphi =arctan\frac{A_1 sin\varphi_1 +A_2 sin\varphi_2 }{A_1 cos\varphi_1 +A_2 cos\varphi_2 }(\varphi_1 &lt;\varphi &lt;\varphi_2 ) $$<br>两个同方向、同频率简谐振动的合振动仍是简谐振动，并保持原来的振动方向合频率不变</p>
+<p>简谐振动的能量特征：$$x=cos(\omega t+\varphi)\\v=-\omega Asin(\omega t+\varphi)\\\Rightarrow E_k =\frac{1}{2}mv^2 =\frac{1}{2}m\omega^2 sin^2 (\omega t+\varphi)\\E_p =\frac{1}{2}kx^2 =\frac{1}{2}kA^2 (\omega t+\varphi)$$<br>
+\(\quad\)弹簧振子系统的机械能：$$E=E_k +E_p =\frac{1}{2}kA^2 $$<br>
+简谐振动系统的总能量与振幅的平方成正比<br>
+振幅的大小可以用来表征简谐振动的强弱<br>
+\(\quad\)简谐振动位移的平均值：$$\overline{x}=0$$<br>
+\(\quad\)简谐振动势能的平均值：$$\overline{E_p }=\frac{1}{2} E$$<br>
+\(\quad\)简谐振动动能的平均值：$$\overline{E_k }=\frac{1}{2} E$$<br>
+就平均意义上来说，简谐振动系统的能量中一半是动能，一半是势能</p>
+<p>\(\quad\)两个同方向、同频率的简谐振动的合成：设一个质点同时参与两个独立的同方向、同频率的简谐运动：$$x_1 =A_1cos(\omega t+\varphi_1),x_2 =A_2 cos(\omega t+\varphi_2)$$<br>
+合振动的振动方程：$$x=Acos(\omega t+\varphi)$$<br>
+其中$$A=\sqrt{A_1^2 +A_2^2 +2A_1 A_2 cos(\varphi_2 -\varphi_1)}\\\varphi =arctan\frac{A_1 sin\varphi_1 +A_2 sin\varphi_2 }{A_1 cos\varphi_1 +A_2 cos\varphi_2 }(\varphi_1 &lt;\varphi &lt;\varphi_2 ) $$<br>
+两个同方向、同频率简谐振动的合振动仍是简谐振动，并保持原来的振动方向合频率不变</p>
 <p>\(\quad\)两个同方向、不同频率的简谐振动合成后不再是简谐振动</p>
 <p>\(\quad\)拍现象：两个频率较大且差值较小的简谐振动合成时，其合振动的振幅出现忽强忽弱周期性变化的现象，称为拍</p>
-<p>\(\quad\)阻尼振动：在弹性回复力和阻力共同作用下振幅或能量随时间逐渐减小的振动<br>\(\quad\)阻尼：消耗振动系统能量的原因<br>\(\quad\)摩擦阻尼：系统在振动时所受的摩擦阻力做功，使机械能转化为热能<br>\(\quad\)辐射阻尼：振动系统与周围介质相互作用引起振动能量逐渐向四周辐射</p>
-<p>\(\quad\)机械波：机械振动在弹性介质中的传播<br>机械波产生的条件：<br>\(\quad(1)\)波源：做机械振动的物体<br>\(\quad(2)\)弹性介质：能够传播机械振动的物质载体(固体、液体、气体)<br>但电磁波的传播不需要介质</p>
+<p>\(\quad\)阻尼振动：在弹性回复力和阻力共同作用下振幅或能量随时间逐渐减小的振动<br>
+\(\quad\)阻尼：消耗振动系统能量的原因<br>
+\(\quad\)摩擦阻尼：系统在振动时所受的摩擦阻力做功，使机械能转化为热能<br>
+\(\quad\)辐射阻尼：振动系统与周围介质相互作用引起振动能量逐渐向四周辐射</p>
+<p>\(\quad\)机械波：机械振动在弹性介质中的传播<br>
+机械波产生的条件：<br>
+\(\quad(1)\)波源：做机械振动的物体<br>
+\(\quad(2)\)弹性介质：能够传播机械振动的物质载体(固体、液体、气体)<br>
+但电磁波的传播不需要介质</p>
 <p>\(\quad\)在弹性介质中，各质元间以弹性力紧密相连。当介质中某一质元受到外界策动力的作用而持续、稳定地发生机械振动时，质元之间地弹性力使得该振动以一定地速度在弹性介质中由近及远向外传播出去，就形成了机械波。</p>
-<p>机械波传播的特点：<br>\(\quad\)横波：质点的振动方向与波的传播方向相互垂直的波，交替出现凸起的波峰和凸下的波谷<br>\(\quad\)纵波：质点的振动方向与波的传播方向互相平行的波，交替出现“稀疏”(波疏)和“稠密”(波密)区域，例如声波就是纵波<br>\(\quad\)表面波：横波和纵波的合成波，例如水面波就是纵波与横波的合成波，在水面上，当波通过水时，水质元的运动既有上下运动，又有前后运动，每个质元将在自己的平衡位置附近沿椭圆轨迹(浅水中)或沿圆形轨迹(深水中)运动</p>
+<p>机械波传播的特点：<br>
+\(\quad\)横波：质点的振动方向与波的传播方向相互垂直的波，交替出现凸起的波峰和凸下的波谷<br>
+\(\quad\)纵波：质点的振动方向与波的传播方向互相平行的波，交替出现“稀疏”(波疏)和“稠密”(波密)区域，例如声波就是纵波<br>
+\(\quad\)表面波：横波和纵波的合成波，例如水面波就是纵波与横波的合成波，在水面上，当波通过水时，水质元的运动既有上下运动，又有前后运动，每个质元将在自己的平衡位置附近沿椭圆轨迹(浅水中)或沿圆形轨迹(深水中)运动</p>
 <p>\(\quad\)机械波的传播是振动状态子啊弹性介质中的传播，是振动相位的传播，是能量的传播，介质质元在各自的平衡位置附近振动，不会“随波逐流”</p>
-<p>\(\quad\)波线：表示波的传播途径和方向的有向线段<br>\(\quad\)波面：同时刻振动相位相同的点所构成的面<br>\(\quad\)波前：最前面的那个波面<br>在各向同性介质中传播时，波线和波面垂直</p>
-<p>\(\quad\)波长\(\lambda\)：波传播时，在同一波线上两个相邻的、相位差为\(2\pi\)的质元之间的距离<br>\(\quad\)周期\(T\)：波前进一个波长的距离所需的时间<br>\(\quad\)频率\(v\)：单位时间内波动前进距离中完整波长的个数<br>波的周期等于波源振动的周期，即波的周期和频率由波源振动的快慢决定，与弹性介质的性质无关<br>\(\quad\)波速\(u\)：单位时间内振动状态传播的距离，由于振动状态是由相位决定的，所以波速就是波的相位的传播速度，也称相速$$u=\frac{\lambda}{T}=\lambda v$$<br>由于波的频率是由振源的振动频率决定的，所以同一频率的波在不同的介质中传播，其波长是不同的。同一性质的波在相同的介质中传播时频率越高，波长越短。</p>
-<p>\(\quad\)固体介质既能传播与切变有关的横波，又能传播与线变和体变有关的纵波<br>\(\quad\)液体和气体只有线变和体变，只能传播纵波</p>
+<p>\(\quad\)波线：表示波的传播途径和方向的有向线段<br>
+\(\quad\)波面：同时刻振动相位相同的点所构成的面<br>
+\(\quad\)波前：最前面的那个波面<br>
+在各向同性介质中传播时，波线和波面垂直</p>
+<p>\(\quad\)波长\(\lambda\)：波传播时，在同一波线上两个相邻的、相位差为\(2\pi\)的质元之间的距离<br>
+\(\quad\)周期\(T\)：波前进一个波长的距离所需的时间<br>
+\(\quad\)频率\(v\)：单位时间内波动前进距离中完整波长的个数<br>
+波的周期等于波源振动的周期，即波的周期和频率由波源振动的快慢决定，与弹性介质的性质无关<br>
+\(\quad\)波速\(u\)：单位时间内振动状态传播的距离，由于振动状态是由相位决定的，所以波速就是波的相位的传播速度，也称相速$$u=\frac{\lambda}{T}=\lambda v$$<br>
+由于波的频率是由振源的振动频率决定的，所以同一频率的波在不同的介质中传播，其波长是不同的。同一性质的波在相同的介质中传播时频率越高，波长越短。</p>
+<p>\(\quad\)固体介质既能传播与切变有关的横波，又能传播与线变和体变有关的纵波<br>
+\(\quad\)液体和气体只有线变和体变，只能传播纵波</p>
 <p>\(\quad\)由于纵波的传播速度大于横波的传播速度，所以地震时，一般先上下颠簸，然后再左右摇晃</p>
 <p>\(\quad\)当波源做简谐振动时，介质中各质元也都做简谐振动，此时形成的波称为简谐波。简谐波在传播过程中，波线上的各质元都做同频率同振幅的简谐振动。这种波只能发生在各向同性、均匀、无限大、无吸收的连续弹性介质中。如果简谐波的波面是平面，则称为平面简谐波。</p>
-<p>平面简谐波的波函数：$$y=y(x,t)$$<br>\(x:\)各质点平衡位置的坐标<br>\(y:\)各质点相对各自平衡位置的位移<br>波函数表示介质中各质点的振动状态随时间的变化关系</p>
-<p>\(\quad(1)\)沿\(Ox\)轴正向传播：已知\(O\)点处质点的振动方程：\(y_0 =Acos(\omega   t+\varphi)\)，任一点\(P\)在时间上落后：\(\triangle t =\frac{x}{u}\)，相位上落后：\(\omega\triangle t=\omega\frac{x}{u}\)，所以\(\varphi_p =\omega t+\varphi-\omega\frac{x}{u}=\omega(t-\frac{x}{u})+\varphi ,P\)点振动方程：$$y_p =Acos[\omega (t-\frac{x}{u})+\varphi ]$$<br>\(\quad\)已知点不在原点时，任一点\(P\)在时间上落后：\(\triangle t =\frac{x-x_0 }{u}\)，相位上落后：\(\omega\triangle t=\omega\frac{x-x_0 }{u}\)，所以\(\varphi_p =\omega t+\varphi-\omega\frac{x-x_0 }{u}=\omega(t-\frac{x-x_0 }{u})+\varphi ,P\)点振动方程：$$y_p =Acos[\omega (t-\frac{x-x_0 }{u})+\varphi ]$$</p>
+<p>平面简谐波的波函数：$$y=y(x,t)$$<br>
+\(x:\)各质点平衡位置的坐标<br>
+\(y:\)各质点相对各自平衡位置的位移<br>
+波函数表示介质中各质点的振动状态随时间的变化关系</p>
+<p>\(\quad(1)\)沿\(Ox\)轴正向传播：已知\(O\)点处质点的振动方程：\(y_0 =Acos(\omega   t+\varphi)\)，任一点\(P\)在时间上落后：\(\triangle t =\frac{x}{u}\)，相位上落后：\(\omega\triangle t=\omega\frac{x}{u}\)，所以\(\varphi_p =\omega t+\varphi-\omega\frac{x}{u}=\omega(t-\frac{x}{u})+\varphi ,P\)点振动方程：$$y_p =Acos[\omega (t-\frac{x}{u})+\varphi ]$$<br>
+\(\quad\)已知点不在原点时，任一点\(P\)在时间上落后：\(\triangle t =\frac{x-x_0 }{u}\)，相位上落后：\(\omega\triangle t=\omega\frac{x-x_0 }{u}\)，所以\(\varphi_p =\omega t+\varphi-\omega\frac{x-x_0 }{u}=\omega(t-\frac{x-x_0 }{u})+\varphi ,P\)点振动方程：$$y_p =Acos[\omega (t-\frac{x-x_0 }{u})+\varphi ]$$</p>
 <p>\(\quad (2)\)沿\(Ox\)轴负向向传播：已知\(O\)点处质点的振动方程：\(y_0 =Acos(\omega   t+\varphi)\)，则任一点\(P\)的振动方程为：$$y_p =Acos[\omega (t+\frac{x}{u})+\varphi ]$$</p>
 <p>\(\quad\)判断波动曲线上质点的运动方向时利用机械波的特征：各点都在重复前一点的振动形式。</p>
 <p>\(\quad\)惠更斯原理：介质中波动传播到达的各点都可以看作是发射子波的波源，而在其后的任意时刻，这些子波的包络就是新的波前。</p>
-<p>\(\quad\)干涉现象：两列波在空间中相遇后，使媒质中某些地方振动始终加强，而另外一些地方振动始终减弱或完全抵消的现象。<br>\(\quad\)相干条件：<br>\(\qquad\)振动方向相同；<br>\(\qquad\)频率相同；<br>\(\qquad\)相位差恒定<br>满足干涉条件的波(源)称为相干波(源)</p>
-<p>\(\quad\)两相干波源的振动方程分别为：$$y_1 =A_1 cos(\omega t+\varphi_1 ),y_2 =A_2 cos(\omega t+\varphi_2 )$$<br>两列波在\(P\)点相遇，则在\(P\)点合振动的振幅：$$A=\sqrt{A_1^2 +A_2^2 +2A_1 A_2 cos(\triangle\varphi )}\\\\\triangle\varphi =\varphi_2 -\varphi_1 -2\pi (\frac{r_2 -r_1 }{\lambda})$$<br>合成波的振幅和强度变化与振动相位差密切相关<br>\(\quad\)两列波在\(P\)点同相时：\(\triangle\varphi =\varphi_2 -\varphi_2 -2\pi(\frac{r_2 -r_1}{\lambda})=\pm 2k\pi(k\in N )\)，干涉增强，\(A=A_{max}=A_1 +A_2\)<br>\(\quad\)两列波在\(P\)点反向时：\(\triangle\varphi =\varphi_2 -\varphi_2 -2\pi(\frac{r_2 -r_1}{\lambda})=\pm (2k+1)\pi(k\in N )\)，干涉减弱，\(A=A_{min}=|A_1 -A_2|\)</p>
+<p>\(\quad\)干涉现象：两列波在空间中相遇后，使媒质中某些地方振动始终加强，而另外一些地方振动始终减弱或完全抵消的现象。<br>
+\(\quad\)相干条件：<br>
+\(\qquad\)振动方向相同；<br>
+\(\qquad\)频率相同；<br>
+\(\qquad\)相位差恒定<br>
+满足干涉条件的波(源)称为相干波(源)</p>
+<p>\(\quad\)两相干波源的振动方程分别为：$$y_1 =A_1 cos(\omega t+\varphi_1 ),y_2 =A_2 cos(\omega t+\varphi_2 )$$<br>
+两列波在\(P\)点相遇，则在\(P\)点合振动的振幅：$$A=\sqrt{A_1^2 +A_2^2 +2A_1 A_2 cos(\triangle\varphi )}\\\triangle\varphi =\varphi_2 -\varphi_1 -2\pi (\frac{r_2 -r_1 }{\lambda})$$<br>
+合成波的振幅和强度变化与振动相位差密切相关<br>
+\(\quad\)两列波在\(P\)点同相时：\(\triangle\varphi =\varphi_2 -\varphi_2 -2\pi(\frac{r_2 -r_1}{\lambda})=\pm 2k\pi(k\in N )\)，干涉增强，\(A=A_{max}=A_1 +A_2\)<br>
+\(\quad\)两列波在\(P\)点反向时：\(\triangle\varphi =\varphi_2 -\varphi_2 -2\pi(\frac{r_2 -r_1}{\lambda})=\pm (2k+1)\pi(k\in N )\)，干涉减弱，\(A=A_{min}=|A_1 -A_2|\)</p>
 <p>\(\quad\)同时的相对性：在一个惯性系中观察是同时发生的两个事件，在另一个惯性系中观察未必是同时发送。只有在同一地点，同一时刻发生的两个事件，在其他惯性系中观察才是同时的。</p>
-<p>\(\quad\)时间延缓(动钟变慢效应)：$$\triangle t= \frac{\triangle t_0 }{\sqrt{1-\frac{u^2 }{c^2}}}$$<br>原时\(\triangle t_0\)：在某坐标系中同一地点发生的两个事件的事件间隔，通常都是运动中的参考系中的时间。(原时最短)</p>
+<p>\(\quad\)时间延缓(动钟变慢效应)：$$\triangle t= \frac{\triangle t_0 }{\sqrt{1-\frac{u^2 }{c^2}}}$$<br>
+原时\(\triangle t_0\)：在某坐标系中同一地点发生的两个事件的事件间隔，通常都是运动中的参考系中的时间。(原时最短)</p>
 <p>\(\quad\)原长：在与物体保持静止的参考系中所测量的长度称为该物体的固有长度。原长对两个端点的测量可以不同时$$L_0 =x_2 -x_1$$</p>
 <p>\(\quad\)动长：在与物体有相对运动的参考系中所测量的长称为该物体的运动长度。动长对两个端点的测量必须同时$$L=x_{2}’-x_{1}’$$</p>
-<p>\(\quad\)由洛伦兹变换：$$L=L_0 \sqrt{1-\frac{u^2 }{c^2 }}$$<br>运动长度要小于固有长度；<br>长度收缩纯属一个时空变换效应，不是物质的结构发生了变化，与物体在热胀冷缩现象中所发生的实际的收缩和膨胀时完全不同的；<br>在一切的空间间隔测量中，固有长度最长；<br>长度收缩只发生在物体运动的方向上，在垂直于物体运动方向的横向上不会发生长度收缩效应；<br>长度收缩效应具有相对性，不同惯性系各有自己的空间坐标，互相发现对方的“尺子”变短了；<br>长度收缩和时间膨胀效应时相关的、一致的。</p>
-<p>\(\quad\)质速关系：<br>\(\quad\)运动质量(相对论质量)：$$m(v)=\frac{m_0 }{\sqrt{1-\frac{v^2 }{c^2 }}}$$<br>由于空间的各向同性，\(m(v)\)与速度方向无关；<br>当\(v=c\)时，\(m_0 =0\)，否则\(m=\frac{m_0 }{\sqrt{1-\frac{v^2 }{c^2 }}}\rightarrow \infty\)，所以以光速运动的物体必无静止质量，如光子，中微子等；<br>以光速\(c\)运动且没有静止质量的任何东西，想光或别的形式的辐射，都属于场物质，而有静止质量的物体才称为实物，所以，实际物体的运动速度永远小于且不能达到真空中的光速</p>
-<p>\(\quad\)相对论动量：$$\vec{P}=m\vec{v}=\frac{m_0 \vec{v}}{\sqrt{1-\frac{v^2 }{c^2 }}}$$<br>动量时描述物体机械运动传递本领的物理量</p>
-<p>\(\quad\)相对论力学的基本方程：$$\vec{F}=\frac{d\vec{P}}{dt}=\frac{d}{dt}(m\vec{v})=\frac{d}{dt}(\frac{m_0 \vec{v}}{\sqrt{1-\frac{v^2 }{c^2}}})=m\frac{d\vec{v}}{dt}+\frac{dm}{dt}\vec{v}$$<br>此式说明外力不仅仅改变物体的速度，而且改变物体的质量</p>
-<p>\(\quad\)相对论动能：$$E_k =mc^2 -m_0 c^2$$<br>物体静止能量：\(E_0 =m_0 c^2\)<br>物体的总能量(动能+静能)：\(E=mc^2=E_k +m_0 c^2\)<br>爱因斯坦质能关系式：\(E=mc^2\)揭示了物质的两个基本属性–质量和能量之间不可分隔的联系和对应关系。物体具有能量，必然同时具有相应的能量。自然界中没有脱离质量的能量，也没有无能量的质量。</p>
+<p>\(\quad\)由洛伦兹变换：$$L=L_0 \sqrt{1-\frac{u^2 }{c^2 }}$$<br>
+运动长度要小于固有长度；<br>
+长度收缩纯属一个时空变换效应，不是物质的结构发生了变化，与物体在热胀冷缩现象中所发生的实际的收缩和膨胀时完全不同的；<br>
+在一切的空间间隔测量中，固有长度最长；<br>
+长度收缩只发生在物体运动的方向上，在垂直于物体运动方向的横向上不会发生长度收缩效应；<br>
+长度收缩效应具有相对性，不同惯性系各有自己的空间坐标，互相发现对方的“尺子”变短了；<br>
+长度收缩和时间膨胀效应时相关的、一致的。</p>
+<p>\(\quad\)质速关系：<br>
+\(\quad\)运动质量(相对论质量)：$$m(v)=\frac{m_0 }{\sqrt{1-\frac{v^2 }{c^2 }}}$$<br>
+由于空间的各向同性，\(m(v)\)与速度方向无关；<br>
+当\(v=c\)时，\(m_0 =0\)，否则\(m=\frac{m_0 }{\sqrt{1-\frac{v^2 }{c^2 }}}\rightarrow \infty\)，所以以光速运动的物体必无静止质量，如光子，中微子等；<br>
+以光速\(c\)运动且没有静止质量的任何东西，想光或别的形式的辐射，都属于场物质，而有静止质量的物体才称为实物，所以，实际物体的运动速度永远小于且不能达到真空中的光速</p>
+<p>\(\quad\)相对论动量：$$\vec{P}=m\vec{v}=\frac{m_0 \vec{v}}{\sqrt{1-\frac{v^2 }{c^2 }}}$$<br>
+动量时描述物体机械运动传递本领的物理量</p>
+<p>\(\quad\)相对论力学的基本方程：$$\vec{F}=\frac{d\vec{P}}{dt}=\frac{d}{dt}(m\vec{v})=\frac{d}{dt}(\frac{m_0 \vec{v}}{\sqrt{1-\frac{v^2 }{c^2}}})=m\frac{d\vec{v}}{dt}+\frac{dm}{dt}\vec{v}$$<br>
+此式说明外力不仅仅改变物体的速度，而且改变物体的质量</p>
+<p>\(\quad\)相对论动能：$$E_k =mc^2 -m_0 c^2$$<br>
+物体静止能量：\(E_0 =m_0 c^2\)<br>
+物体的总能量(动能+静能)：\(E=mc^2=E_k +m_0 c^2\)<br>
+爱因斯坦质能关系式：\(E=mc^2\)揭示了物质的两个基本属性–质量和能量之间不可分隔的联系和对应关系。物体具有能量，必然同时具有相应的能量。自然界中没有脱离质量的能量，也没有无能量的质量。</p>
 <p>\(\quad\)相对论质能守恒定律：在一个孤立系统内，所有粒子的相对论动能和静能量的总和在相互作用过程中保持不变。</p>
-<p>\(\quad\)相对论动量和能量的关系：$$E^2 =p^2 c^2 +m_0^2 c^4 =p^2 c^2 +E_0^2$$<br>光子：\(m_0 =0\Rightarrow E=pc\Rightarrow p=\frac{E}{c},E=hv\Rightarrow p=\frac{hv}{c}\Rightarrow m=\frac{E}{c^2 }=\frac{hv}{c^2 }\)</p>
+<p>\(\quad\)相对论动量和能量的关系：$$E^2 =p^2 c^2 +m_0^2 c^4 =p^2 c^2 +E_0^2$$	<br>
+光子：\(m_0 =0\Rightarrow E=pc\Rightarrow p=\frac{E}{c},E=hv\Rightarrow p=\frac{hv}{c}\Rightarrow m=\frac{E}{c^2 }=\frac{hv}{c^2 }\)</p>
 </article><br><br><span class="next-post"><a href="/2020/04/12/discreteMath/" itemprop="url">Older Post ⇒</a></span><span class="prev-post"><a href="/2020/05/11/circuit/" itemprop="url">⇐ Next Post </a></span><br><br><br></main><!-- hexo-inject:begin --><!-- hexo-inject:end --></body></html>
